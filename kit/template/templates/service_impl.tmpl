@@ -1,0 +1,9 @@
+type {{.Name}} struct{
+
+}
+
+{{range .Methods}}
+{{GetMethodSignature .}}{
+	//comment
+}
+{{end}}
